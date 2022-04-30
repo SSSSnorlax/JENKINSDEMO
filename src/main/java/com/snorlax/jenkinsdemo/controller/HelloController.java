@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @History:
  * @Note:
  */
-@RestController
+@RestController("/jenkinsdemo")
 public class HelloController {
     @GetMapping("hello")
     public String sayHello(){
